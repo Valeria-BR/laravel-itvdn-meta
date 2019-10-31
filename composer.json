@@ -1,0 +1,23 @@
+{
+    "name": "borschova/meta",
+    "description": "This is for ITVDN",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "borschova",
+            "email": "lera.borschova@yandex.ru"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "name\\Meta\\":"src/" }},
+    "extra":{
+        "laravel":{
+            "providers": [
+                "borschova\\Meta\\MetaServiceProvider"
+            ],
+            "aliases":{
+                "Meta":"borschova\\Meta\\Meta"
+            } }}
+}
