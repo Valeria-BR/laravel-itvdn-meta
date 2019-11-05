@@ -11,7 +11,7 @@
     "require": {},
     "autoload":{
         "psr-4": {
-            "name\\Meta\\":"src/" }},
+            "borschova\\Meta\\":"src/" }},
     "extra":{
         "laravel":{
             "providers": [
